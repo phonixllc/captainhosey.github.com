@@ -17,7 +17,6 @@
 
 
   <link rel="stylesheet" href="css/main.css" type="text/css"/>
-  <link rel="stylesheet" href="css/simple.css" type="text/css"/>
   <!-- Include Bootstrap CSS and Javascript Files -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -26,7 +25,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda+Caption:wght@800&family=Cookie&family=Diplomata&family=Dosis:wght@200;300;400;600&family=Fascinate&family=Grechen+Fuemen&family=Kite+One&family=La+Belle+Aurore&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Marvel&family=Metamorphous&family=Permanent+Marker&family=Play&family=Poller+One&family=Rye&family=Zen+Old+Mincho&family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
 
-  <script src="js/modernizr.custom.phonix.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -75,61 +73,105 @@ CSS rules to specify families
 
 </head>
 <body>
-<center><h1 class="slogan">Captain Hosey</h1></center>
 
-  <!-- Insert Stacks Begin -->
-  <section class="three-column">
-  <div class="container" >
-
-    <div class="row">
-      <div class="col-md-4">
-        <h2 class="nav"> </h2>
-
-
-       <p class="fancy" style="margin-top:20px;"></p>
-       <p class="fancy"></p>
-       <!--<a href="team.html" title="Check out TBF!"> </a>-->
-       <br>
-         
-      </div>
-   
-       <div class="col-md-4">
-        <h2 class="nav"></h2>
-
-
-       <p class="fancy" style="margin-top:20px;">John Hosey has his Captain license and is ready to drive you into the open sea!</p>
-       <p class="fancy"></p>
-       <p class="fancy"></p>
-       <!--<a href="art.html" title="See past artworks and events.">VIEW GALLERIES</a>-->
-       <br>
-
-        
-      </div>
-   
-      <div class="col-md-4">
-        <h2 class="nav"></h2>
-
-       <p class="fancy" style="margin-top:20px;"></p>
-       <p class="fancy"></p>
-       
-       <!--<a href="apps.html" title="Learn more about our smart album technology.">INFO</a> -->
-        <br>
-      </div>
-
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand" href="#">Captain Hosey</a>
     </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
 
-  </div> 
+        <!--
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+<div class="container">
 
-  </section>
+  <div class="starter-template">
+    <!-- <center><h1 class="slogan">Captain Hosey</h1></center> -->
+    <center><img src="img/CaptainHosey.jpg" alt="Captain John Hosey" title="Captain John Hosey"/></center>
+  </div>
 
+</div>
+
+
+<!-- Header (SECTION 1/3) -->
+<header class="masthead" id="about">
+  <p class="masthead-intro">Hi, I'm</p>
+  <h1 class="masthead-heading">John</h1>
+</header>
+
+<!-- the div is used to apply the gradient -->
+<div class="gradient">
+<!-- Body (SECTION 2/3) -->
+<section>
+  <h2>Introduction</h2>
+    <p>Lorem ipsum dolor sit amet, vis choro dicam ut. Qui no dicant fierent inciderint, ne ius atomorum consequuntur, ea nibh nullam mel. No atqui placerat liberavisse mei, ne ceteros nostrum eum. In wisi sonet insolens pro. Ei movet malorum consetetur duo. Ex duo simul invidunt, nam dolor graeco ut, quo error aeterno consectetuer te.</p>
+    <p class="space-maker">Vel ne labitur nominavi luptatum, eu mei labore dictas. Nam no tamquam scriptorem. Ius te euismod aliquam scaevola.</p>
+</section>
+
+<section>
+  <h2>Where I'm From</h2>
+    <p class="space-maker">Dicat soluta at nec. Adhuc iuvaret hendrerit mei et, ne sea suas fuisset eloquentiam. Illud aliquid cum at, qui everti deseruisse te, apeirian periculis eu nam. Nibh impetus offendit ne est.</p>
+</section>
+
+<section>
+  <h2>More About Me</h2>
+  <h3>What are your favorite hobbies?</h3>
+  <p class="space-maker">Te harum graeco suavitate sed, at dolore epicuri omittam usu. Porro dicant recusabo et eum. Usu eu nihil munere urbanitas, eu vix unum corpora partiendo, vis legere euismod utroque eu.</p>
+  <h3>What's your dream job?</h3>
+  <p class="space-maker">Amet possim ex mei, vis ei mucius aperiam, ea quidam adolescens sed. Tota detracto cu duo, delenit argumentum eu quo.</p>
+  <h3>What music have you been listening to lately?</h3>
+  <p>The Band Famous is one of my favorite bands, they're always putting out interesting music to listen to! Ius postulant petentium at, ancillae delicata interpretaris in vis, ei eos suscipit nominati quaerendum. Quo ne tota ludus vivendum. An usu noluisse delicata, delectus petentium et eum.</p>
+</section>
+</div>
+
+<!-- Footer (SECTION 3/3) -->
+<footer class="content-footer" id="contact">
+  <p>If you'd like to have me as your Captain, please feel free to contact me by email or phone:</p>
+
+  <ul class="social">
+    <li><a href="mailto:john.hosey@rocketmail.com?Subject=Inquiry%20for%20Captain%20John%20Hosey" title="Send an email inquiry to Captain John Hosey!">EMAIL ME</a></li>
+    <li> <a href="sms:(+1)(7158170003)" title="Send a text inquiry to Captain John Hosey!">TEXT ME</a></li>
+  </ul>
+      
   <br>
-  <br>
+
+  <p>Say hi to me on these social networks:</p>
+  <ul class="social">
+    <li><a href="https://www.facebook.com/john.hosey1" target=_Blank>Facebook</a></li>
+    <li><a href="https://instagram.com/jchosey90" target=_Blank>Instagram</a></li>
+    <li><a href="https://twitter.com/captainjohnny90" id="check2" target=_Blank>Twitter</a></li>
+  </ul>
+
+</footer>
   <br>
 <center>
-        <br>
-        <br>
-        <br>
-
+    
       <a target="_blank" href="https://www.amazon.com/fresh?ref_=assoc_tag_ph_1524254357421&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=maryn.jackson-20&linkId=cc580eeeab196d3d45ea36620285b5b6"><h2 style="color: white;">Try Amazon Fresh</h2></a>
       <br>
       <a target="_blank" href="https://www.amazon.com/dp/B00NB86OYE/?ref_=assoc_tag_ph_1485906643682&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=maryn.jackson-20&linkId=e0f6f40265e8e81f714c463b2a62de03"><h2 style="color: white;">Try Audible Premium Plus and Get Up to Two Free Audiobooks</h2></a>
@@ -158,7 +200,7 @@ CSS rules to specify families
 
         <br>
 
-        <!-- BitStarz Affiliate Casino -->
+        <!-- BitStarz Affiliate Casino 
         <a href="http://www.bitstarz104.com/a" target="_blank">
           <img src="img/affiliates/Aff.-Banner_Wolf-Gold-New_860x380" style="min-width: 300px; width: 80%; height: auto;">
         </a>
@@ -167,11 +209,14 @@ CSS rules to specify families
         <br>
         <br>
 
-        <!-- BitStarz Affiliate Casino Tesla Giveaway -->
+
+       BitStarz Affiliate Casino Tesla Giveaway 
         <a href="http://www.bitstarz104.com/promo/win-a-tesla-car" target="_blank">
           <img src="img/affiliates/winTesla_AffBanner_800x600_EN" style="min-width: 300px; width: 80%; height: auto;">
         </a>
         <script type="text/javascript" src="https://bs1.direct/sources/b41427fc0.js"></script>
+
+      -->s
         
         <br>
         <br>        
@@ -236,7 +281,7 @@ CSS rules to specify families
 
 
 
-<div id="footer" style="background-color:lavender; color: black; clear:both;text-align:center; font-family: 'Michroma', sans-serif; margin-top:100%;"><p>Website designed &amp; developed by <a href="https://bandfamous.com" target="_blank" title="Meet the Developers!">The Band Famous</a><br>Copyright &copy; Ph&ouml;nix LLC.</p></div>
+<div id="footer" style="background-color:lightgray; color: black; clear:both;text-align:center;  font-family: 'Coda Caption', sans-serif; margin-top:100%;"><p>Website designed &amp; developed by <a href="https://bandfamous.com" target="_blank" title="Meet the Developers!">The Band Famous</a><br>Copyright &copy; Ph&ouml;nix LLC.</p></div>
   <!-- Insert Stacks End -->
 
   <!-- Revenue Hits Revenue 
