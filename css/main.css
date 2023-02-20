@@ -104,7 +104,7 @@ section {
   /* can be treated like a fallback */
   background-color: #000000;;
   /* will be "on top", if browser supports it */
-  background-image: linear-gradient(#000000,  #404040);
+  background-image: linear-gradient(#000000,  #0d0d0d);
 }
 
 /* The h2 tags are the main categories */
