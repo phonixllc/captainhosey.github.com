@@ -1,5 +1,3 @@
-  /*border: 1px solid indigo; */
-/* just so you can see the gutter */
 
 
 .column-w:first-of-type {
@@ -50,7 +48,7 @@ body {
   margin: 0 auto;
   /* Typography declarations */
   font-size: 62.5%;
-  font-family: "Coda Caption", "Dosis", "Kite One", "sans-serif";
+  font-family: "Play", "Coda Caption", "Dosis", "Kite One", "sans-serif";
   font-weight: 300;
   color: #EDEDED;
   outline-color: white;
@@ -73,10 +71,12 @@ body {
                0px 18px 23px rgba(0,0,0,0.1);
   /* Typography declarations */
   font-size: 4em;
+
 }
 
 .masthead-intro {
   margin: 2em 0 0 0;
+  font-family: 'Play', sans-serif;
 }
 
 .masthead-heading {
@@ -85,6 +85,7 @@ body {
   /* Layout declarations */
   padding: 0;
   margin: 0 0 1em;
+  font-family: 'Play', sans-serif;
 }
 
 /* BODY */
@@ -103,7 +104,7 @@ section {
   /* can be treated like a fallback */
   background-color: #000000;;
   /* will be "on top", if browser supports it */
-  background-image: linear-gradient(#000000, #262626);
+  background-image: linear-gradient(#000000,  #404040);
 }
 
 /* The h2 tags are the main categories */
